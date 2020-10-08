@@ -6,12 +6,12 @@
 </head>	
 
 <body>
-<img src="banner1.jpg" alt="https://ohsimbasu.github.io/" width="40" height="90">
+<img src="banner1.jpg" alt="https://ohsimbasu.github.io/" width="4000" height="100">
  <h1>Where to Skate</h1>
- <h2>Hong Kong</h2>
+ <h2>in Hong Kong</h2>
   <p>This is Simba's first paragraph. There will be more in the future.</p>
-  <p><a href="https://ohsimbasu.github.io/">Introduce to Your Friends(if you have)</a></p>
+  
   <p><a href="mailto:ohsimbasu@gmail.com">Send Simba an email</a></p>   
-
+<img src="banner2.jpg" alt="https://ohsimbasu.github.io/" width="4000" height="100">
 </body>
 </html>
