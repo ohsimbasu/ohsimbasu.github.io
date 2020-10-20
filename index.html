@@ -1,20 +1,116 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Simba's Skateborading Things</title>
-</head>	
+<title>LATTER SKATEBOARD</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* style the header */
+ header {
+  bakground-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px
+  color: white;
+}
+
+
+/* create two columns/boxes that floats next to each other */
+ nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padiing: 20px
+}
+
+/* style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, shoulf be removed */
+}
+
+/* clear floats after the columns */
+section: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* responsive layout - makes the two colunms/boxes stack on the top of each other
+instead of next to each oter, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
 <body>
 
-<img src="banner1.jpg" alt="https://ohsimbasu.github.io/" width="1000" height="200">
- <h1>Where to Skate</h1>
- <h2>in Hong Kong</h2>
-  <p>This is Simba's first paragraph. There will be more in the future.</p>
-  <p><br></p> 
-  <p><br></p> 
-  <p><br></p> 
-  <p><a href="mailto:ohsimbasu@gmail.com">Send Simba an email</a></p>  
-<img src="banner2.jpg" alt="https://ohsimbasu.github.io/" width="1000" height="200">
+<h2>LATTER SKATEBOARD</h2>
+<p>Latter is a platform for skateboarders all over the world, which helps people to know and smiriti skateboarding culture in your places.</p>
+<p>The founder of Latter Simba wish everyone who loves skateboard can find a place to know more friends and feel home.She will try her best to do it.</p>
+
+<header>
+  <h2>Cities to skate</h2>
+</header>
+
+<section>
+  <nav> 
+    <ul>
+      <li><a href="#">Hong Kong</a><li>
+      <li><a href="#">Taipei</a><li>  
+      <li><a href="#">Chengdu</a><li>
+      <li><a href="#">Beijing</a><li>
+      <li><a href="#">Tokyo</a><li>
+      <li><a href="#">Brisbane</a><li>
+      <li><a href="#">New York</a><li>
+      <li><a href="#">Los Angeles</a><li>
+      <li><a href="#">Amsterdam</a><li>
+      <li><a href="#">Paris</a><li>
+      <li><a href="#">Rome</a><li>      
+      <li><a href="#">London</a><li>
+      <li><a href="#">Cairo</a><li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>Hong Kong</h1>
+    <p>Hong kong has xxx skateboarding parks. There are so many interesting skateboarders.</p>
+    <p>Although they are not allowed to skate on streets.</p>
+  </article>             
+</section>
+
+<footer>
+  <p>There should be a photo of Simba</p>
+</footer>
+
 </body>
-</html>
+</html>             
