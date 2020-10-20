@@ -110,6 +110,7 @@ instead of next to each oter, on small screens */
 
 <footer>
   <p>There should be a photo of Simba</p>
+  <p><a href="mailto:ohsimbasu@gmail.com">Send Simba an email</a></p>  
 </footer>
 
 </body>
